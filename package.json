@@ -2,5 +2,9 @@
   "name": "ec2-control",
   "version": "0.2.0",
   "main": "index.js",
+  "scripts": {
+    "chmod:krill": "chmod 400 north-atlantic-kirll.pem",
+    "ssh:krill": "ssh -i north-atlantic-kirll.pem ec2-user@ec2-13-59-62-38.us-east-2.compute.amazonaws.com"
+  },
   "license": "MIT"
 }
